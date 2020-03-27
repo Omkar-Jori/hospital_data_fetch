@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/backg"
+    >
+
+    <TextView
+        android:layout_width="797dp"
+        android:layout_height="261dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="220dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="@string/atlanticare_medical_center"
+        android:textColor="#000000"
+        android:textSize="60dp"
+        android:typeface="normal"
+        android:visibility="visible"
+        app:layout_editor_absoluteX="11dp"
+        app:layout_editor_absoluteY="260dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_editor_absoluteX="11dp"
+        app:layout_editor_absoluteY="300dp"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="520dp"
+        />
+</RelativeLayout>
